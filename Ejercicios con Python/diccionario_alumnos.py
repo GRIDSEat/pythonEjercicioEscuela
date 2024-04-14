@@ -31,8 +31,6 @@ class agenda:
         for nombre in self.contactos:
             print(nombre,self.contactos[nombre][0],self.contactos[nombre][1])
 
-
-
-
 agen = agenda()
+agen1 = agenda()
 agen.menu()
